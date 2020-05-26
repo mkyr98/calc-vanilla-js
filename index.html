@@ -10,33 +10,41 @@
 </head>
 
 <body>
-    <button class="number" id="1">1</button>
-    <button class="number" id="2">2</button>
-    <button class="number" id="3">3</button>
-    <button class="operand" id="plus">+</button>
-    <br>
-    <button class="number" id="4">4</button>
-    <button class="number" id="5">5</button>
-    <button class="number" id="6">6</button>
-    <button class="operand" id="minus">-</button>
-    <br>
-    <button class="number" id="7">7</button>
-    <button class="number" id="8">8</button>
-    <button class="number" id="9">9</button>
-    <button class="operand" id="mult">*</button>
-    <br>
-    <button id="clr">C</button>
-    <button class="number" id="0">0</button>
-    <button id="plusMinus">+/-</button>
-    <button class="operand" id="div">/</button>
-    <br>
-    <div id="current">
-        <span id="first"></span>
-        <span id="operand"></span>
-        <span id="second"></span>
-    </div>
-
-    <button class="operand" id="equal">=</button>
+    <div class="flexbox">
+        <div class="row-1">
+            <button class="number" id="jeden">1</button>
+            <button class="number" id="2">2</button>
+            <button class="number" id="3">3</button>
+            <button class="operand" id="plus">+</button>
+        </div>
+        <div class="row-2">
+            <button class="number" id="4">4</button>
+            <button class="number" id="5">5</button>
+            <button class="number" id="6">6</button>
+            <button class="operand" id="minus">-</button>
+        </div>
+        <div class="row-3">
+            <button class="number" id="7">7</button>
+            <button class="number" id="8">8</button>
+            <button class="number" id="9">9</button>
+            <button class="operand" id="mult">*</button>
+        </div>
+        <div class="row-4">
+            <button id="clr">C</button>
+            <button class="number" id="0">0</button>
+            <button id="plusMinus">+/-</button>
+            <button class="operand" id="div">/</button>
+        </div>
+        <div id="current">
+            <span id="first"></span>
+            <span id="operand"></span>
+            <span id="second"></span>
+        </div>
+        <div class ="row-5"> 
+          <button class="operand" id="equal">=</button>
+        </div>
+       
+    </div>  
 
     <script src="keyboard_listener.js"></script>
     <script src="script.js"></script>

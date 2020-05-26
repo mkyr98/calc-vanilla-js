@@ -1,14 +1,11 @@
-.number{
+/* .number{
     margin-bottom: 0.2em;
 }
-/* #zero{
-    margin-right: 2em;
-} */
 #plusMinus{
     padding-left: 0.1em;
     padding-right: 0.2em;
 }
-.backspace{
+#clr{
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -19,9 +16,67 @@
 #div{
     padding-left: 0.5em;
     padding-right: 0.5em;
-    /* margin-left: 0.1em; */
 }
 
 #equal{
     padding: 0 3.5em;
+} */
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-width: 8em;
+    background-color: wheat;
 }
+
+.row-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.row-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.row-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.row-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.row-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.row-5 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#current {
+    text-align: center;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    border-color: khaki;
+    width: 5em;
+    min-width: 2em;
+}
+#equal {
+    width: 20em;
+    min-width: 8em;
+}
+
+
+
+
+
+
+
